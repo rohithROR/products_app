@@ -1,0 +1,1616 @@
+Started GET "/" for ::1 at 2024-02-22 12:26:19 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 831)
+Completed 200 OK in 15ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 8997)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:30:33 +0530
+  [1m[35m (298.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (126.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20240222065939_create_products.rb
+
+
+):
+  
+activerecord (7.0.8.1) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8.1) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8.1) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.8.1) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2024-02-22 12:30:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20240222065939_create_products.rb
+
+
+):
+  
+activerecord (7.0.8.1) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8.1) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8.1) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.8.1) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-02-22 12:50:06 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20240222065939_create_products.rb
+
+
+):
+  
+activerecord (7.0.8.1) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8.1) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8.1) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.8.1) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2024-02-22 12:50:06 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20240222065939_create_products.rb
+
+
+):
+  
+activerecord (7.0.8.1) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8.1) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8.1) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.8.1) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for ::1 at 2024-02-22 12:50:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20240222065939)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" decimal, "status" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240222065939"]]
+  [1m[36mTRANSACTION (99.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-02-22 07:20:09.254667"], ["updated_at", "2024-02-22 07:20:09.254667"]]
+  [1m[36mTRANSACTION (76.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2024-02-22 12:50:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 462)
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 3867)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:50:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/products.json"):
+  
+Started GET "/favicon.ico" for ::1 at 2024-02-22 12:50:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:50:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/products.json"):
+  
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:50:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/products.json"):
+  
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:53:05 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."active" = ? ORDER BY "products"."created_at" DESC[0m  [["active", 1]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.7ms | Allocations: 22766)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: products.active):
+  
+app/controllers/api/products_controller.rb:7:in `index'
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:53:30 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.5ms | Allocations: 1928)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:55:07 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.5ms | Allocations: 2124)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "AU091"], ["price", 5000.0], ["status", "active"], ["created_at", "2024-02-22 07:26:28.723534"], ["updated_at", "2024-02-22 07:26:28.723534"]]
+  [1m[36mTRANSACTION (102.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "AU342"], ["price", 10000.0], ["status", "active"], ["created_at", "2024-02-22 07:26:28.829150"], ["updated_at", "2024-02-22 07:26:28.829150"]]
+  [1m[36mTRANSACTION (87.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/products.json" for ::1 at 2024-02-22 12:56:35 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 28ms (Views: 12.9ms | ActiveRecord: 0.8ms | Allocations: 38914)
+
+
+Started GET "/api/products/search" for ::1 at 2024-02-22 12:59:10 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.9ms | Allocations: 2236)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search" for ::1 at 2024-02-22 12:59:42 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.7ms | Allocations: 2065)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search" for ::1 at 2024-02-22 12:59:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.6ms | Allocations: 2989)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search.json" for ::1 at 2024-02-22 13:00:28 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 505)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search.json" for ::1 at 2024-02-22 13:01:17 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 8ms (ActiveRecord: 1.3ms | Allocations: 2084)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search.json" for ::1 at 2024-02-22 13:01:42 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"search"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:72:in `set_product'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 501)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=search):
+  
+app/controllers/api/products_controller.rb:72:in `set_product'
+Started GET "/api/products/search.json" for ::1 at 2024-02-22 13:02:59 +0530
+Processing by Api::ProductsController#search as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/api/products_controller.rb:65:in `search'
+Completed 200 OK in 26ms (Views: 13.9ms | ActiveRecord: 0.7ms | Allocations: 36714)
+
+
+Started GET "/api/products/search.json?productName=AU091" for ::1 at 2024-02-22 13:03:34 +0530
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%')[0m
+  ↳ app/controllers/api/products_controller.rb:65:in `search'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 868)
+
+
+Started GET "/api/products/search.json?productName=AU091&minPrice=100" for ::1 at 2024-02-22 13:03:46 +0530
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091", "minPrice"=>"100"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '100')[0m
+  ↳ app/controllers/api/products_controller.rb:65:in `search'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 840)
+
+
+Started GET "/api/products/search.json?productName=AU091&minPrice=100" for ::1 at 2024-02-22 13:04:04 +0530
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091", "minPrice"=>"100"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 1670)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007f246d130798>
+Did you mean?  try):
+  
+app/controllers/api/products_controller.rb:50:in `search'
+Started GET "/api/products/search.json?productName=AU091&minPrice=100" for ::1 at 2024-02-22 13:05:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091", "minPrice"=>"100"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '100')[0m
+  ↳ app/controllers/api/products_controller.rb:50:in `search'
+  [1m[36mCACHE Product Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '100')[0m
+  ↳ app/controllers/api/products_controller.rb:50:in `search'
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '100')[0m
+  ↳ app/controllers/api/products_controller.rb:66:in `search'
+Completed 200 OK in 41008ms (Views: 1.7ms | ActiveRecord: 1.9ms | Allocations: 70162)
+
+
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/products/search.json?productName=AU091&minPrice=1000000" for ::1 at 2024-02-22 13:12:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091", "minPrice"=>"1000000"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '1000000')[0m
+  ↳ app/controllers/api/products_controller.rb:66:in `search'
+Completed 200 OK in 3798ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 41571)
+
+
+Started GET "/api/products/search.json?productName=AU091&minPrice=1000000" for ::1 at 2024-02-22 13:17:08 +0530
+Processing by Api::ProductsController#search as JSON
+  Parameters: {"productName"=>"AU091", "minPrice"=>"1000000"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%AU091%') AND (price >= '1000000')[0m
+  ↳ app/controllers/api/products_controller.rb:65:in `search'
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 1771)
+
+
+Started GET "/" for ::1 at 2024-02-22 13:26:20 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20240222075005_create_approval_queues.rb
+
+
+):
+  
+activerecord (7.0.8.1) lib/active_record/migration.rb:662:in `check_pending!'
+activerecord (7.0.8.1) lib/active_record/migration.rb:627:in `block (2 levels) in call'
+activesupport (7.0.8.1) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.8.1) lib/active_record/migration.rb:632:in `block in call'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.1) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.1) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.1) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for ::1 at 2024-02-22 13:26:22 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateApprovalQueues (20240222075005)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "approval_queues" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240222075005"]]
+  [1m[36mTRANSACTION (88.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2024-02-22 13:26:22 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 462)
+Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3870)
+
+
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ?[0m  [["product_id", 2]]
+Started GET "/" for ::1 at 2024-02-22 13:44:51 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 452)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1325)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 13:45:14 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdc0cffa088>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.0ms | Allocations: 18288)
+
+
+  
+ActiveRecord::AssociationTypeMismatch (ApprovalQueue(#26220) expected, got #<Product id: nil, name: "Product Name", price: 0.75e4, status: nil, created_at: nil, updated_at: nil> which is an instance of Product(#26180)):
+  
+app/controllers/api/products_controller.rb:22:in `create'
+Started POST "/api/products" for ::1 at 2024-02-22 13:45:57 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdc0c7537e0>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+Completed 500 Internal Server Error in 62274ms (ActiveRecord: 1.2ms | Allocations: 37584)
+
+
+  
+ActiveRecord::AssociationTypeMismatch (ApprovalQueue(#33980) expected, got #<Product id: nil, name: "Product Name", price: 0.75e4, status: nil, created_at: nil, updated_at: nil> which is an instance of Product(#33940)):
+  
+app/controllers/api/products_controller.rb:22:in `create'
+Started POST "/api/products" for ::1 at 2024-02-22 13:47:31 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdc0d10bf08>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+Completed 500 Internal Server Error in 120784ms (ActiveRecord: 1.9ms | Allocations: 15253)
+
+
+  
+ActiveRecord::AssociationTypeMismatch (ApprovalQueue(#41440) expected, got #<Product id: nil, name: "Product Name", price: 0.75e4, status: nil, created_at: nil, updated_at: nil> which is an instance of Product(#41400)):
+  
+app/controllers/api/products_controller.rb:22:in `create'
+Started POST "/api/products" for ::1 at 2024-02-22 13:50:00 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdc0cd6c208>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (pry):9:in `create'
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Product Name"], ["price", 7500.0], ["status", nil], ["created_at", "2024-02-22 08:20:17.322158"], ["updated_at", "2024-02-22 08:20:17.322158"]]
+  ↳ (pry):9:in `create'
+  [1m[36mApprovalQueue Create (0.3ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 3], ["created_at", "2024-02-22 08:20:17.329354"], ["updated_at", "2024-02-22 08:20:17.329354"]]
+  ↳ (pry):9:in `create'
+  [1m[36mTRANSACTION (381.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (pry):9:in `create'
+Completed 422 Unprocessable Entity in 20338ms (ActiveRecord: 384.6ms | Allocations: 32658)
+
+
+  
+ActiveRecord::RecordNotSaved (Failed to remove the existing associated approval_queue. The record failed to save after its foreign key was set to nil.):
+  
+app/controllers/api/products_controller.rb:22:in `create'
+Started POST "/api/products" for ::1 at 2024-02-22 13:50:28 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdc08ec1648>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:25:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Product Name"], ["price", 7500.0], ["status", nil], ["created_at", "2024-02-22 08:20:31.361252"], ["updated_at", "2024-02-22 08:20:31.361252"]]
+  ↳ app/controllers/api/products_controller.rb:25:in `create'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 4], ["created_at", "2024-02-22 08:20:31.365847"], ["updated_at", "2024-02-22 08:20:31.365847"]]
+  ↳ app/controllers/api/products_controller.rb:25:in `create'
+  [1m[36mTRANSACTION (86.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:25:in `create'
+Completed 201 Created in 2476ms (Views: 1.0ms | ActiveRecord: 86.5ms | Allocations: 8026)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 13:55:54 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 0.9ms | Allocations: 4741)
+
+
+  [1m[36mApprovalQueue Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "approval_queues"[0m
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Update (0.5ms)[0m  [1m[33mUPDATE "products" SET "status" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["status", "active"], ["updated_at", "2024-02-22 08:27:32.467071"], ["id", 4]]
+  [1m[36mTRANSACTION (124.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/products.json" for ::1 at 2024-02-22 13:57:36 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 2.9ms | ActiveRecord: 0.7ms | Allocations: 4840)
+
+
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Update (0.2ms)[0m  [1m[33mUPDATE "products" SET "status" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["status", "active"], ["updated_at", "2024-02-22 08:27:50.987944"], ["id", 3]]
+  [1m[36mTRANSACTION (105.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/products.json" for ::1 at 2024-02-22 13:57:53 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.4ms | Allocations: 1260)
+
+
+Started PUT "/api/products/2" for ::1 at 2024-02-22 13:58:00 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"name"=>"Updated Product Name", "price"=>75000, "status"=>"active"}, "id"=>"2"}
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:87:in `set_product'
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: update, request: #<ActionDispatch::Request:0x00007fdbf4119a90>, params: {"product"=>{"name"=>"Updated Product Name", "price"=>75000, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"update", "id"=>"2"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:37:in `update'
+  [1m[36mProduct Update (0.4ms)[0m  [1m[33mUPDATE "products" SET "name" = ?, "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["name", "Updated Product Name"], ["price", 75000.0], ["updated_at", "2024-02-22 08:28:00.067813"], ["id", 2]]
+  ↳ app/controllers/api/products_controller.rb:37:in `update'
+  [1m[36mTRANSACTION (183.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:37:in `update'
+  [1m[36mApprovalQueue Load (0.3ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:41:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:41:in `update'
+  [1m[36mApprovalQueue Create (0.6ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 2], ["created_at", "2024-02-22 08:28:00.280571"], ["updated_at", "2024-02-22 08:28:00.280571"]]
+  ↳ app/controllers/api/products_controller.rb:41:in `update'
+  [1m[36mTRANSACTION (103.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:41:in `update'
+Completed 200 OK in 335ms (Views: 0.8ms | ActiveRecord: 290.1ms | Allocations: 8462)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 13:58:11 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 1264)
+
+
+Started GET "/" for ::1 at 2024-02-22 15:07:19 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:07:25 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 1.4ms | Allocations: 1404)
+
+
+Started DELETE "/api/products/1" for ::1 at 2024-02-22 15:07:28 +0530
+Processing by Api::ProductsController#destroy as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:87:in `set_product'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:52:in `destroy'
+  [1m[36mProduct Destroy (0.7ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/api/products_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (236.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:52:in `destroy'
+Completed 204 No Content in 249ms (ActiveRecord: 237.8ms | Allocations: 1854)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:07:37 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms | Allocations: 1135)
+
+
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:27:06 +0530
+  
+SyntaxError (/home/local/SLS/shareena.sheik/Shareena/Projects/products_app/config/routes.rb:8: syntax error, unexpected string literal, expecting `do' or '{' or '('
+.../products/approval_queue', to 'products#approval_queue'
+...                              ^
+):
+  
+config/routes.rb:8: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:8: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:27:18 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.2ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:85:in `approval_queue'
+Completed 200 OK in 12ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 3997)
+
+
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:28:06 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:85:in `approval_queue'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 929)
+
+
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:51:11 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:87:in `approval_queue'
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 3998)
+
+
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/products" for ::1 at 2024-02-22 15:52:37 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdbf8565cd0>, params: {"product"=>{"name"=>"Product Name", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Product Name"], ["price", 7500.0], ["status", "pending"], ["created_at", "2024-02-22 10:22:37.437396"], ["updated_at", "2024-02-22 10:22:37.437396"]]
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mApprovalQueue Create (0.2ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 5], ["created_at", "2024-02-22 10:22:37.440748"], ["updated_at", "2024-02-22 10:22:37.440748"]]
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (161.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+Completed 201 Created in 179ms (Views: 0.4ms | ActiveRecord: 163.7ms | Allocations: 8256)
+
+
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:52:51 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.6ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:87:in `approval_queue'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.6ms | Allocations: 1129)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:53:06 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1234)
+
+
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:53:41 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:87:in `approval_queue'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1014)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:54:30 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 1.1ms | Allocations: 4839)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 15:55:00 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"SKU999", "price"=>7500, "status"=>"active"}}
+[31mUnpermitted parameter: :status. Context: { controller: Api::ProductsController, action: create, request: #<ActionDispatch::Request:0x00007fdbf861b738>, params: {"product"=>{"name"=>"SKU999", "price"=>7500, "status"=>"active"}, "format"=>"json", "controller"=>"api/products", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SKU999"], ["price", 7500.0], ["status", "pending"], ["created_at", "2024-02-22 10:25:00.144750"], ["updated_at", "2024-02-22 10:25:00.144750"]]
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mApprovalQueue Create (0.2ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 6], ["created_at", "2024-02-22 10:25:00.149829"], ["updated_at", "2024-02-22 10:25:00.149829"]]
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (252.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:26:in `create'
+Completed 201 Created in 280ms (Views: 0.6ms | ActiveRecord: 254.0ms | Allocations: 6192)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:55:05 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 15:55:22 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.3ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:87:in `approval_queue'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1223)
+
+
+Started GET "/" for ::1 at 2024-02-22 15:55:29 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 255)
+
+
+Started GET "/api/products.json" for ::1 at 2024-02-22 15:55:35 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 1136)
+
+
+Started GET "/api/products/approval-queue/6/approve" for ::1 at 2024-02-22 15:55:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/products/approval-queue/6/approve"):
+  
+Started GET "/api/products/approval-queue/6/approve" for ::1 at 2024-02-22 15:56:46 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/products/approval-queue/6/approve"):
+  
+Started PUT "/api/products/approval-queue/6/approve" for ::1 at 2024-02-22 15:58:18 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mApprovalQueue Load (0.2ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:91:in `approve'
+Completed 404 Not Found in 8ms (ActiveRecord: 1.1ms | Allocations: 3069)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find ApprovalQueue with 'id'=6):
+  
+app/controllers/api/products_controller.rb:91:in `approve'
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started PUT "/api/products/approval-queue/5/approve" for ::1 at 2024-02-22 15:58:47 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:91:in `approve'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+  [1m[36mProduct Update (0.4ms)[0m  [1m[33mUPDATE "products" SET "status" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["status", "active"], ["updated_at", "2024-02-22 10:28:47.940821"], ["id", 6]]
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+  [1m[36mTRANSACTION (126.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+  [1m[36mApprovalQueue Destroy (0.2ms)[0m  [1m[31mDELETE FROM "approval_queues" WHERE "approval_queues"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+  [1m[36mTRANSACTION (114.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:95:in `approve'
+Completed 200 OK in 259ms (Views: 0.4ms | ActiveRecord: 241.4ms | Allocations: 8758)
+
+
+Started PUT "/api/products/approval-queue/9/approve" for ::1 at 2024-02-22 16:00:24 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"9"}
+Completed 404 Not Found in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms | Allocations: 2327)
+
+
+Started PUT "/api/products/approval-queue/9/approve" for ::1 at 2024-02-22 16:00:43 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"9"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+Completed 404 Not Found in 7ms (Views: 0.2ms | ActiveRecord: 1.0ms | Allocations: 3089)
+
+
+Started PUT "/api/products/approval-queue/9/approve" for ::1 at 2024-02-22 16:01:04 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"9"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+Completed 404 Not Found in 8099ms (Views: 0.2ms | ActiveRecord: 0.9ms | Allocations: 11512)
+
+
+Started PUT "/api/products/approval-queue/9/approve" for ::1 at 2024-02-22 16:01:27 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"id"=>"9"}
+  [1m[36mApprovalQueue Load (0.3ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+Completed 500 Internal Server Error in 2402ms (Views: 0.3ms | ActiveRecord: 1.6ms | Allocations: 9000)
+
+
+  
+NoMethodError (undefined method `product' for nil:NilClass):
+  
+app/controllers/api/products_controller.rb:98:in `approve'
+Started GET "/api/products/approval-queue.json" for ::1 at 2024-02-22 16:08:02 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"approval-queue"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:114:in `set_product'
+Completed 404 Not Found in 8ms (ActiveRecord: 1.0ms | Allocations: 2902)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval-queue):
+  
+app/controllers/api/products_controller.rb:114:in `set_product'
+Started GET "/api/products/approval-queue.json" for ::1 at 2024-02-22 16:08:33 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"approval-queue"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:114:in `set_product'
+Completed 404 Not Found in 8ms (ActiveRecord: 1.1ms | Allocations: 2953)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval-queue):
+  
+app/controllers/api/products_controller.rb:114:in `set_product'
+Started GET "/api/products/approval-queue.json" for ::1 at 2024-02-22 16:08:35 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"approval-queue"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:114:in `set_product'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 489)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval-queue):
+  
+app/controllers/api/products_controller.rb:114:in `set_product'
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 16:08:51 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:88:in `approval_queue'
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 0.7ms | Allocations: 4087)
+
+
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 16:09:13 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"id"=>"approval_queue"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:114:in `set_product'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.8ms | Allocations: 2954)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval_queue):
+  
+app/controllers/api/products_controller.rb:114:in `set_product'
+Started GET "/api/products/approval_queue.json" for ::1 at 2024-02-22 16:09:23 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:88:in `approval_queue'
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 1.0ms | Allocations: 4452)
+
+
+Started GET "/" for ::1 at 2024-02-22 18:39:37 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 725)
+Completed 200 OK in 8ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 6595)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "AU091"], ["price", 5000.0], ["status", "active"], ["created_at", "2024-02-22 13:15:07.933124"], ["updated_at", "2024-02-22 13:15:07.933124"]]
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "AU342"], ["price", 10000.0], ["status", "active"], ["created_at", "2024-02-22 13:15:07.939595"], ["updated_at", "2024-02-22 13:15:07.939595"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/products" for ::1 at 2024-02-22 18:46:04 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 40260)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:46:39 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"name"=>"Fridge", "price"=>"8000"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 196)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  
+app/controllers/api/products_controller.rb:126:in `product_params'
+app/controllers/api/products_controller.rb:18:in `create'
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:06 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:06.395672"], ["updated_at", "2024-02-22 13:17:06.395672"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.0ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 9], ["created_at", "2024-02-22 13:17:06.397169"], ["updated_at", "2024-02-22 13:17:06.397169"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 17ms (Views: 0.2ms | ActiveRecord: 4.4ms | Allocations: 23519)
+
+
+Started GET "/api/products" for ::1 at 2024-02-22 18:47:38 +0530
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 1523)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:50 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:50.796016"], ["updated_at", "2024-02-22 13:17:50.796016"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.0ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 10], ["created_at", "2024-02-22 13:17:50.797616"], ["updated_at", "2024-02-22 13:17:50.797616"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.2ms | Allocations: 2847)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:52 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:52.814135"], ["updated_at", "2024-02-22 13:17:52.814135"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.0ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 11], ["created_at", "2024-02-22 13:17:52.815606"], ["updated_at", "2024-02-22 13:17:52.815606"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.2ms | Allocations: 2840)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:54 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:54.027511"], ["updated_at", "2024-02-22 13:17:54.027511"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 12], ["created_at", "2024-02-22 13:17:54.029006"], ["updated_at", "2024-02-22 13:17:54.029006"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.1ms | Allocations: 2860)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:56 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:56.911051"], ["updated_at", "2024-02-22 13:17:56.911051"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.0ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 13], ["created_at", "2024-02-22 13:17:56.912548"], ["updated_at", "2024-02-22 13:17:56.912548"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.2ms | Allocations: 2860)
+
+
+Started POST "/api/products" for ::1 at 2024-02-22 18:47:57 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-22 13:17:57.916334"], ["updated_at", "2024-02-22 13:17:57.916334"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.0ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 14], ["created_at", "2024-02-22 13:17:57.917806"], ["updated_at", "2024-02-22 13:17:57.917806"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.0ms | Allocations: 2849)
+
+
+Started GET "/api/products" for ::1 at 2024-02-23 12:13:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#index as JSON
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."status" = ? ORDER BY "products"."created_at" DESC[0m  [["status", "active"]]
+  ↳ app/controllers/api/products_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 39445)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:14:27 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"80000"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 80000.0], ["status", "active"], ["created_at", "2024-02-23 06:44:27.682382"], ["updated_at", "2024-02-23 06:44:27.682382"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 500 Internal Server Error in 7ms (Views: 0.1ms | ActiveRecord: 4.3ms | Allocations: 2409)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/products_controller.rb:28:in `create'
+Started POST "/api/products" for ::1 at 2024-02-23 12:15:10 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"80000"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 80000.0], ["status", "active"], ["created_at", "2024-02-23 06:45:10.650834"], ["updated_at", "2024-02-23 06:45:10.650834"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 500 Internal Server Error in 7ms (Views: 0.1ms | ActiveRecord: 4.0ms | Allocations: 1863)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/products_controller.rb:28:in `create'
+Started POST "/api/products" for ::1 at 2024-02-23 12:16:06 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"80000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 80000.0], ["status", "active"], ["created_at", "2024-02-23 06:46:06.124436"], ["updated_at", "2024-02-23 06:46:06.124436"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 500 Internal Server Error in 6ms (Views: 0.1ms | ActiveRecord: 4.2ms | Allocations: 1863)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/products_controller.rb:28:in `create'
+Started POST "/api/products" for ::1 at 2024-02-23 12:16:21 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"80000"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 80000.0], ["status", "active"], ["created_at", "2024-02-23 06:46:21.037740"], ["updated_at", "2024-02-23 06:46:21.037740"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 500 Internal Server Error in 6ms (Views: 0.1ms | ActiveRecord: 4.2ms | Allocations: 1845)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/products_controller.rb:28:in `create'
+Started POST "/api/products" for ::1 at 2024-02-23 12:17:18 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"80000"}}
+Completed 422 Unprocessable Entity in 10ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 38579)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:17:31 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-23 06:47:31.089669"], ["updated_at", "2024-02-23 06:47:31.089669"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 19], ["created_at", "2024-02-23 06:47:31.091579"], ["updated_at", "2024-02-23 06:47:31.091579"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 26ms (Views: 0.3ms | ActiveRecord: 4.4ms | Allocations: 22330)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:17:34 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fridge"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-23 06:47:34.343780"], ["updated_at", "2024-02-23 06:47:34.343780"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 20], ["created_at", "2024-02-23 06:47:34.345268"], ["updated_at", "2024-02-23 06:47:34.345268"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.1ms | Allocations: 2860)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:19:28 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Fridge"], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 422 Unprocessable Entity in 12ms (Views: 2.3ms | ActiveRecord: 0.8ms | Allocations: 11619)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:20:23 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Fridge"], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 422 Unprocessable Entity in 14ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 9289)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:20:34 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Fridge", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Fridge"], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 422 Unprocessable Entity in 7ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 9299)
+
+
+Started POST "/api/products" for ::1 at 2024-02-23 12:21:07 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Washing Machine"], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Washing Machine"], ["price", 8000.0], ["status", "pending"], ["created_at", "2024-02-23 06:51:07.117388"], ["updated_at", "2024-02-23 06:51:07.117388"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 21], ["created_at", "2024-02-23 06:51:07.118554"], ["updated_at", "2024-02-23 06:51:07.118554"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 9ms (Views: 0.2ms | ActiveRecord: 4.3ms | Allocations: 3714)
+
+
+Started GET "/api/products/approval_queues" for ::1 at 2024-02-23 12:21:42 +0530
+Processing by Api::ProductsController#show as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}, "id"=>"approval_queues"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 740)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval_queues):
+  
+app/controllers/api/products_controller.rb:112:in `set_product'
+Started GET "/api/products/approval_queue" for ::1 at 2024-02-23 12:22:09 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:86:in `approval_queue'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 2016)
+
+
+Started PUT "/api/products/approval-queue/21/approve" for ::1 at 2024-02-23 12:23:50 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}, "approvalId"=>"21"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:118:in `set_approval_queue'
+Filter chain halted as :set_approval_queue rendered or redirected
+Completed 404 Not Found in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 653)
+
+
+Started GET "/api/products/approval_queue" for ::1 at 2024-02-23 12:24:07 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:86:in `approval_queue'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1861)
+
+
+Started PUT "/api/products/approval-queue/14/approve" for ::1 at 2024-02-23 12:25:12 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}, "approvalId"=>"14"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:118:in `set_approval_queue'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:90:in `approve'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "status" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["status", "active"], ["updated_at", "2024-02-23 06:55:12.948872"], ["id", 21]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mApprovalQueue Destroy (0.1ms)[0m  [1m[31mDELETE FROM "approval_queues" WHERE "approval_queues"."id" = ?[0m  [["id", 14]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 7.8ms | Allocations: 12547)
+
+
+Started PUT "/api/products/approval-queue" for ::1 at 2024-02-23 12:25:21 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}, "id"=>"approval-queue"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 605)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=approval-queue):
+  
+app/controllers/api/products_controller.rb:112:in `set_product'
+Started GET "/api/products/approval-queue" for ::1 at 2024-02-23 12:25:27 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  Parameters: {"product"=>{"name"=>"Washing Machine", "price"=>"8000"}}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:86:in `approval_queue'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1843)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:26:31 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"80000"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["price", 80000.0], ["updated_at", "2024-02-23 06:56:31.737113"], ["id", 21]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 21], ["created_at", "2024-02-23 06:56:31.743531"], ["updated_at", "2024-02-23 06:56:31.743531"]]
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "status" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["status", "pending"], ["updated_at", "2024-02-23 06:56:31.750193"], ["id", 21]]
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 11.0ms | Allocations: 8216)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:29:27 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"80000"}, "id"=>"21"}
+  [1m[36mProduct Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 6933)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:29:42 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"8000"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["price", 8000.0], ["updated_at", "2024-02-23 06:59:42.366013"], ["id", 21]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 4.3ms | Allocations: 3175)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:29:52 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["price", 200.0], ["updated_at", "2024-02-23 06:59:52.928692"], ["id", 21]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 4.3ms | Allocations: 3109)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:34:36 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 21], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 10697)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:35:07 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 21], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 10693)
+
+
+Started PUT "/api/products/21" for ::1 at 2024-02-23 12:35:57 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"21"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Washing Machine"], ["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 21], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 422 Unprocessable Entity in 9ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 10669)
+
+
+Started PUT "/api/products/20" for ::1 at 2024-02-23 12:36:10 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"20"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Fridge"], ["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 20], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 422 Unprocessable Entity in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 3224)
+
+
+Started PUT "/api/products/19" for ::1 at 2024-02-23 12:36:35 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"200"}, "id"=>"19"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Fridge"], ["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 19], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 422 Unprocessable Entity in 4ms (Views: 0.2ms | ActiveRecord: 0.4ms | Allocations: 3213)
+
+
+Started POST "/api/products/" for ::1 at 2024-02-23 12:37:08 +0530
+Processing by Api::ProductsController#create as JSON
+  Parameters: {"product"=>{"name"=>"Microwoven", "price"=>"200"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "Microwoven"], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mProduct Create (0.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Microwoven"], ["price", 200.0], ["status", "active"], ["created_at", "2024-02-23 07:07:08.664168"], ["updated_at", "2024-02-23 07:07:08.664168"]]
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:27:in `create'
+Completed 201 Created in 7ms (Views: 0.2ms | ActiveRecord: 4.2ms | Allocations: 2643)
+
+
+Started PUT "/api/products/22" for ::1 at 2024-02-23 12:37:23 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"name"=>"Microwoven", "price"=>"2000"}, "id"=>"22"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 22], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mProduct Update (0.1ms)[0m  [1m[33mUPDATE "products" SET "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["price", 2000.0], ["updated_at", "2024-02-23 07:07:23.893733"], ["id", 22]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mApprovalQueue Create (0.1ms)[0m  [1m[32mINSERT INTO "approval_queues" ("product_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["product_id", 22], ["created_at", "2024-02-23 07:07:23.899050"], ["updated_at", "2024-02-23 07:07:23.899050"]]
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:43:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+  [1m[36mProduct Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:45:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 7.4ms | Allocations: 7482)
+
+
+Started PUT "/api/products/22" for ::1 at 2024-02-23 12:38:17 +0530
+Processing by Api::ProductsController#update as JSON
+  Parameters: {"product"=>{"price"=>"1000"}, "id"=>"22"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:112:in `set_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+  [1m[36mApprovalQueue Load (0.0ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."product_id" = ? LIMIT ?[0m  [["product_id", 22], ["LIMIT", 1]]
+  ↳ app/models/product.rb:13:in `validate_product'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:39:in `update'
+Completed 422 Unprocessable Entity in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 3065)
+
+
+Started GET "/api/products/approval-queue" for ::1 at 2024-02-23 12:38:40 +0530
+Processing by Api::ProductsController#approval_queue as JSON
+  Parameters: {"product"=>{"price"=>"1000"}}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" ORDER BY "approval_queues"."created_at" DESC[0m
+  ↳ app/controllers/api/products_controller.rb:86:in `approval_queue'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 2056)
+
+
+Started PUT "/api/products/approval-queue/16/approve" for ::1 at 2024-02-23 12:38:54 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"approvalId"=>"16"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:118:in `set_approval_queue'
+  [1m[36mProduct Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:90:in `approve'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:92:in `approve'
+Completed 422 Unprocessable Entity in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 3334)
+
+
+Started PUT "/api/products/approval-queue/16/approve" for ::1 at 2024-02-23 12:39:44 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"approvalId"=>"16"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:119:in `set_approval_queue'
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ (pry):2:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (pry):3:in `approve'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ (pry):3:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (pry):3:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (pry):4:in `approve'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ (pry):4:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ (pry):4:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+  [1m[36mProduct Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+Completed 422 Unprocessable Entity in 271310ms (Views: 0.3ms | ActiveRecord: 3.3ms | Allocations: 48034)
+
+
+Started PUT "/api/products/approval-queue/16/approve" for ::1 at 2024-02-23 12:44:20 +0530
+Processing by Api::ProductsController#approve as JSON
+  Parameters: {"approvalId"=>"16"}
+  [1m[36mApprovalQueue Load (0.1ms)[0m  [1m[34mSELECT "approval_queues".* FROM "approval_queues" WHERE "approval_queues"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:119:in `set_approval_queue'
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ (pry):5:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ (pry):6:in `approve'
+  [1m[36mProduct Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ (pry):6:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ (pry):6:in `approve'
+  [1m[36mCACHE Product Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? AND "products"."id" != ? LIMIT ?[0m  [["name", "Microwoven"], ["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+  [1m[36mApprovalQueue Destroy (0.3ms)[0m  [1m[31mDELETE FROM "approval_queues" WHERE "approval_queues"."id" = ?[0m  [["id", 16]]
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/products_controller.rb:93:in `approve'
+Completed 200 OK in 29161ms (Views: 0.3ms | ActiveRecord: 6.7ms | Allocations: 25279)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "AU091"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "products" WHERE "products"."name" = ? LIMIT ?[0m  [["name", "AU342"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
